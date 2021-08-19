@@ -13,39 +13,50 @@
                 height: 10%;
             }
 
-            li {
+            .nav-left li {
                 float: left;
+            }
+
+            .nav-right li {
+                float: right
             }
 
             a {
                 display: block;
-                padding: 10px;
+                padding: 5px;
+                margin: 10px;
                 text-align: center;
+                text-decoration: none;
+                background-color: rgb(235, 235, 235);
             }
 
-            #head a {
+            header a {
                 color: black;
             }
 
-            #foot a {
-                color: grey;
+            footer a {
+                color: rgb(92, 92, 92);
             }
         </style>
     </head>
 
-    <body id="site">
+    <body>
         <header>
-            <ul id="head">
-                <li><a href="">About</a></li>
-                <li><a href="">Store</a></li>
-                <li><a href="">Gmail</a></li>
-                <li><a href="">Images</a></li>
-                <li><a href="">
-                    <span class="material-icons">
-                        apps
-                    </span>
-                </a></li>
-                <li><a href="">Sign in</a></li>
+            <ul>
+                <div class="nav-left">
+                    <li><a href="">About</a></li>
+                    <li><a href="">Store</a></li>
+                </div>
+                <div class="nav-right">
+                    <li><a href="">Gmail</a></li>
+                    <li><a href="">Images</a></li>
+                    <li><a href="">
+                            <span class="material-icons">
+                                apps
+                            </span>
+                        </a></li>
+                    <li><a href="">Sign in</a></li>
+                </div>
             </ul>
         </header>
 
@@ -62,13 +73,17 @@
         </main>
 
         <footer>
-            <ul id="foot">
-                <li><a href="">Advertising</a></li>
-                <li><a href="">Business</a></li>
-                <li><a href="">How Search works</a></li>
-                <li><a href="">Privacy</a></li>
-                <li><a href="">Terms</a></li>
-                <li><a href="">Settings</a></li>
+            <ul>
+                <div class="nav-left">
+                    <li><a href="">Advertising</a></li>
+                    <li><a href="">Business</a></li>
+                    <li><a href="">How Search works</a></li>
+                </div>
+                <div class="nav-right">
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Terms</a></li>
+                    <li><a href="">Settings</a></li>
+                </div>
             </ul>
         </footer>
     </body>
