@@ -1,0 +1,1 @@
+This is the first HTML/CSS project. The goal is to create a copy of the Google homepage.
