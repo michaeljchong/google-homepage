@@ -3,23 +3,47 @@
     <head>
         <title>Google</title>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <style></style>
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                width: 60px;
+            }
+
+            li a {
+                display: block;
+                text-align: center;
+            }
+
+            #head a {
+                color: black;
+            }
+
+            #foot a {
+                color: grey;
+            }
+        </style>
     </head>
-    <body>
+
+    <body id="site">
         <header>
-            <a href="">About</a>
-            <a href="">Store</a>
-            <a href="">Gmail</a>
-            <a href="">Images</a>
-            <a href="">
-                <span class="material-icons">
-                    apps
-                </span>
-            </a>
-            <a href="">Sign in</a>
+            <ul id="head">
+                <li><a href="">About</a></li>
+                <li><a href="">Store</a></li>
+                <li><a href="">Gmail</a></li>
+                <li><a href="">Images</a></li>
+                <li><a href="">
+                    <span class="material-icons">
+                        apps
+                    </span>
+                </a></li>
+                <li><a href="">Sign in</a></li>
+            </ul>
         </header>
+
         <main>
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google's logo">
             <form>
                 <span class="material-icons">
                     search
@@ -29,13 +53,16 @@
                 <button type="submit">I'm Feeling Lucky</button>
             </form>
         </main>
+
         <footer>
-            <a href="">Advertising</a>
-            <a href="">Business</a>
-            <a href="">How Search works</a>
-            <a href="">Privacy</a>
-            <a href="">Terms</a>
-            <a href="">Settings</a>
+            <ul id="foot">
+                <li><a href="">Advertising</a></li>
+                <li><a href="">Business</a></li>
+                <li><a href="">How Search works</a></li>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Settings</a></li>
+            </ul>
         </footer>
     </body>
 </html>
