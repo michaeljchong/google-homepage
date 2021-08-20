@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
     <head>
         <title>Google</title>
@@ -19,8 +18,7 @@
             }
 
             main {
-                min-height: 100%;
-                padding-top: 5px;
+                margin-top: 24.5vh;
                 padding-bottom: 70px;
             }
 
@@ -78,9 +76,6 @@
             #right-header {
                 font-size: 13px;
             }
-            .apps {
-                
-            }
             #app-icon {
                 margin-top: -4px;
                 font-size: 24px;
@@ -103,7 +98,6 @@
             }
             
             .logo {
-                margin-top: 20vh;
                 display: flex;
                 width: 100%;
                 justify-content: center;
@@ -113,7 +107,7 @@
                 display: flex;
                 height: 44px;
                 width: 582px;
-                margin: 20px auto;
+                margin: 25px auto 18px;
                 border: 1px solid rgb(225, 225, 225);
                 border-radius: 30px;
             }
@@ -123,14 +117,13 @@
             }
             #search-icon {
                 font-size: 20px;
-                margin: auto;
-                padding-left: 10px;
+                margin: auto 15px auto 15px;
                 color: rgba(0, 0, 0, 0.4);
             }
             .search-bar input {
-                width: 440px;
+                width: 515px;
                 height: 34px;
-                margin: auto;
+                margin: auto 10px auto 0px;
                 border: none;
                 font-size: 14px;
             }
@@ -144,7 +137,6 @@
                 justify-content: center;
                 margin: 20px auto 34px;
             }
-
             button {
                 background-color:rgb(247, 247, 247);
                 border: 1px solid rgb(247, 247, 247);
@@ -177,12 +169,15 @@
                     width: 93vw;
                 }
                 .search-bar input {
-                    width: 70vw;
+                    width: 81vw;
                 }
             }
-            @media (min-height: 800px) {
-                .logo {
-                    margin-top: 30%;
+            @media (min-height: 650px) {
+                
+            }
+            @media (min-height: 850px) {
+                main {
+                    margin-top: 210px;
                 }
             }
         </style>
@@ -198,7 +193,7 @@
                 <div id="right-header" class="right-nav">
                     <li><a href="">Gmail</a></li>
                     <li><a href="">Images</a></li>
-                    <li id="apps"><a href="">
+                    <li><a href="">
                             <span id="app-icon" class="material-icons">
                                 apps
                             </span>
@@ -214,7 +209,7 @@
             </div>
             <form>
                 <div class="search-bar">
-                    <span id="search-icon" class="material-icons md-20">
+                    <span id="search-icon" class="material-icons">
                         search
                     </span>
                     <input type="text">
