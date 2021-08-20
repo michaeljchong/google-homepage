@@ -23,13 +23,15 @@
             }
 
             header {
-                padding: 10px 12px;
+                display: flex;
+                padding: 6px;
                 width: 100%;
+                height: 60px;
                 box-sizing: border-box;
             }
             header a {
-                padding: 10px;
-                margin: 2px;
+                padding: 5px;
+                margin: 15px 5px;
                 color: black;
             }
 
@@ -53,13 +55,13 @@
                 padding: 0;
                 width: 100%;
             }
-            .leftnav li {
+            .left-nav li {
                 float: left;
             }
-            .rightnav {
+            .right-nav {
                 float: right;
             }
-            .rightnav li {
+            .right-nav li {
                 float: left;
             }
             a {
@@ -71,7 +73,15 @@
                 text-decoration: underline;
             }
 
+            #right-header {
+                font-size: 13px;
+            }
+            .apps {
+                
+            }
             #app-icon {
+                margin: -5px;
+                font-size: 24px;
                 color: rgb(120, 120, 120);
             }
             #app-icon:hover {
@@ -80,11 +90,11 @@
                 box-shadow: 0px 0px 1px 8px rgb(228, 228, 228);
             }
 
-            #profilepic {
-                height: 30px;
+            #profile-pic {
+                height: 20px;
                 border-radius: 30px;
             }
-            #profilepic:hover {
+            #profile-pic:hover {
                 border-radius: 30px;
                 box-shadow: 0px 0px 1px 4px rgb(228, 228, 228);
             }
@@ -143,15 +153,16 @@
                 border: 1px solid rgb(222, 222, 222);
                 box-shadow: 0px 1px 1px rgb(218, 218, 218);
             }
+
             @media (max-width: 597px) {
                 .buttons {
                     margin-bottom: 80px;
                 }
-                footer .leftnav{
+                footer .left-nav{
                     display: flex;
                     justify-content: center;
                 }
-                footer .rightnav{
+                footer .right-nav{
                     float: none;
                     display: flex;
                     justify-content: center;
@@ -160,6 +171,9 @@
             @media (max-width: 630px) {
                 .search-bar {
                     width: 93vw;
+                }
+                .search-bar input {
+                    width: 70vw;
                 }
             }
             @media (max-width: 1200px) {
@@ -177,19 +191,19 @@
     <body>
         <header>
             <ul>
-                <div class="leftnav">
+                <div id="left-header" class="left-nav">
                     <li><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
                     <li><a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>
                 </div>
-                <div class="rightnav">
+                <div id="right-header" class="right-nav">
                     <li><a href="">Gmail</a></li>
                     <li><a href="">Images</a></li>
-                    <li><a href="">
+                    <li id="apps"><a href="">
                             <span id="app-icon" class="material-icons">
                                 apps
                             </span>
                         </a></li>
-                    <li><a href="https://github.com/michaeljchong"><img id="profilepic" src="https://barkpost.com/wp-content/uploads/2014/06/jindo-puppy-600x800.jpg" alt="github link"></a></li>
+                    <li><a href="https://github.com/michaeljchong"><img id="profile-pic" src="https://barkpost.com/wp-content/uploads/2014/06/jindo-puppy-600x800.jpg" alt="github link"></a></li>
                 </div>
             </ul>
         </header>
@@ -214,12 +228,12 @@
 
         <footer>
             <ul>
-                <div class="leftnav">
+                <div class="left-nav">
                     <li><a href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1#!/">Advertising</a></li>
                     <li><a href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/">Business</a></li>
                     <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search works</a></li>
                 </div>
-                <div class="rightnav">
+                <div class="right-nav">
                     <li><a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a></li>
                     <li><a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a></li>
                     <li><a href="">Settings</a></li>
