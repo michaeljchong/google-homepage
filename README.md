@@ -15,6 +15,7 @@
 <ul>
     <li>Text and background color's</li>
     <li>Font family and sizing</li>
+    <li>Import a custom font</li>
     <li>ID's and classes</li>
     <li>Borders, padding, margin, and alignment</li>
     <li>Box-shadow</li>
