@@ -19,12 +19,14 @@
             }
 
             main {
+                min-height: 100%;
+                padding-top: 5px;
                 padding-bottom: 70px;
             }
 
             header {
                 display: flex;
-                padding: 6px;
+                padding: 6px 12px;
                 width: 100%;
                 height: 60px;
                 box-sizing: border-box;
@@ -80,26 +82,28 @@
                 
             }
             #app-icon {
-                margin: -5px;
+                margin-top: -4px;
                 font-size: 24px;
                 color: rgb(120, 120, 120);
             }
             #app-icon:hover {
                 border-radius: 30px;
-                background-color: rgb(228, 228, 228);
-                box-shadow: 0px 0px 1px 8px rgb(228, 228, 228);
+                background-color: rgb(240, 240, 240);
+                box-shadow: 0px 0px 1px 7px rgb(240, 240, 240);
             }
 
             #profile-pic {
-                height: 20px;
+                height: 35px;
+                margin-top: -10px;
                 border-radius: 30px;
             }
             #profile-pic:hover {
                 border-radius: 30px;
-                box-shadow: 0px 0px 1px 4px rgb(228, 228, 228);
+                box-shadow: 0px 0px 1px 2px rgb(240, 240, 240);
             }
             
             .logo {
+                margin-top: 20vh;
                 display: flex;
                 width: 100%;
                 justify-content: center;
@@ -176,14 +180,10 @@
                     width: 70vw;
                 }
             }
-            @media (max-width: 1200px) {
-
-            }
-            @media (min-height: 652px) {
-
-            }
-            @media (min-height: 850px) {
-
+            @media (min-height: 800px) {
+                .logo {
+                    margin-top: 30%;
+                }
             }
         </style>
     </head>
@@ -203,7 +203,7 @@
                                 apps
                             </span>
                         </a></li>
-                    <li><a href="https://github.com/michaeljchong"><img id="profile-pic" src="https://barkpost.com/wp-content/uploads/2014/06/jindo-puppy-600x800.jpg" alt="github link"></a></li>
+                    <li><a href="https://github.com/michaeljchong"><img id="profile-pic" src="https://avatars.githubusercontent.com/u/11778104?v=4" alt="github link"></a></li>
                 </div>
             </ul>
         </header>
