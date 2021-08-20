@@ -1,6 +1,6 @@
 <h1>Google Homepage Clone w/ HTML & CSS</h1>
 
-<h2>The goal was to mimic the visual layout and interactions on the <a href="https://www.google.com/">Google homepage</a>.</h2>
+<h2>The goal was to mimic the visual layout and interactions on the <a href="https://www.google.com/">Google homepage</a>. View the <a href="https://michaeljchong.github.io/google-homepage/">final product</a>.</h2>
 
 <h3>HTML used:</h3>
 <ul>
@@ -23,5 +23,3 @@
     <li>CSS flexbox for orientation of items on a single line</li>
     <li>Media query for resizing windows</li>
 </ul>
-
-View the <a href="https://michaeljchong.github.io/google-homepage/">live preview</a>
