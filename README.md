@@ -1,8 +1,8 @@
 <h1>Google Homepage Clone w/ HTML & CSS</h1>
 
-<h2>The goal was to mimic the visual layout and interactions on the <a href="https://www.google.com/">Google homepage</a>. View the <a href="https://michaeljchong.github.io/google-homepage/">final product</a>.</h2>
+<p>The goal was to mimic the visual layout and interactions on the <a href="https://www.google.com/">Google homepage</a>. View the <a href="https://michaeljchong.github.io/google-homepage/">final product</a>.</p>
 
-<h3>HTML used:</h3>
+<h2>HTML used:</h2>
 <ul>
     <li>Embed images and anchor elements</li>
     <li>Unbulleted unordered list for navigation header and footer</li>
@@ -11,7 +11,7 @@
     <li>Div elements</li>
 </ul>
 
-<h3>CSS used:</h3>
+<h2>CSS used:</h2>
 <ul>
     <li>Text and background color's</li>
     <li>Font family and sizing</li>
